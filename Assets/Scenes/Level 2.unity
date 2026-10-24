@@ -1337,7 +1337,6 @@ RectTransform:
   - {fileID: 1584504318}
   - {fileID: 527206398}
   - {fileID: 1949131126}
-  - {fileID: 241831680}
   - {fileID: 1611173139}
   - {fileID: 1709136645}
   - {fileID: 400844273}
@@ -1345,6 +1344,7 @@ RectTransform:
   - {fileID: 1563719050}
   - {fileID: 362293397}
   - {fileID: 1681650023}
+  - {fileID: 241831680}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1595,14 +1595,14 @@ RectTransform:
   m_GameObject: {fileID: 796973789}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.70095336, y: 0.70095336, z: 0.70095336}
+  m_LocalScale: {x: 0.8347653, y: 0.8347653, z: 0.8347653}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1013402616}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 95.126434, y: 0.3085327}
+  m_AnchoredPosition: {x: 109.6, y: 0.3085327}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &796973791
@@ -2047,7 +2047,7 @@ RectTransform:
   m_GameObject: {fileID: 1013402615}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 9.7239, y: 9.7239, z: 9.7239}
+  m_LocalScale: {x: 8.55499, y: 8.55499, z: 8.55499}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 898893657}
@@ -2064,7 +2064,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -412, y: 0}
+  m_AnchoredPosition: {x: -446, y: 40}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013402617
@@ -2754,14 +2754,14 @@ RectTransform:
   m_GameObject: {fileID: 1406266517}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.19262078, y: 0.19262078, z: 0.19262078}
+  m_LocalScale: {x: 0.22939208, y: 0.22939208, z: 0.22939208}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1013402616}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 97.5, y: 18.8}
+  m_AnchoredPosition: {x: 112.42999, y: 22.33}
   m_SizeDelta: {x: 189.883, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1406266519
@@ -2891,14 +2891,14 @@ RectTransform:
   m_GameObject: {fileID: 1412438939}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.19704247, y: 0.19704247, z: 0.19704247}
+  m_LocalScale: {x: 0.23465787, y: 0.23465787, z: 0.23465787}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1013402616}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 98.8, y: 26.6}
+  m_AnchoredPosition: {x: 113.969986, y: 31.62}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1412438941
@@ -3574,7 +3574,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -751.79, y: -45.44983}
+  m_AnchoredPosition: {x: -751.79, y: -45.44995}
   m_SizeDelta: {x: -423.28, y: -602.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1563719051
@@ -4398,16 +4398,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 565189468}
-        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 565189467}
+        m_TargetAssemblyTypeName: PauseMenuController, Assembly-CSharp
+        m_MethodName: NextLevel
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Main Menu
+          m_StringArgument: Level 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1944805995
