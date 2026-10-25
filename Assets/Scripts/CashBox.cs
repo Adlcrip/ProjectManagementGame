@@ -71,12 +71,16 @@ public class CashBox : MonoBehaviour
     // Hook the Cashier button's OnClick to this
     public void OpenCashBox()
     {
+        
+
         // Only works if the customer's money is showing in the bubble
         if (customerQueue == null || !customerQueue.HasPaid) return;
 
         // Receipt is showing (exact payment, or correct change already given): customer leaves
         if (customerQueue.ReadyToLeave)
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.cashier);
+
             customerQueue.FinishOrder();
             return;
         }
@@ -90,6 +94,7 @@ public class CashBox : MonoBehaviour
     // Optional: hook a close button to this
     public void CloseCashBox()
     {
+       
         if (cashBoxPanel != null)
             cashBoxPanel.SetActive(false);
     }

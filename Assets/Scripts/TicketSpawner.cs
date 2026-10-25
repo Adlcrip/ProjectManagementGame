@@ -8,6 +8,8 @@ public class TicketSpawner : MonoBehaviour
 
     public void ShowBirdTicket()
     {
+        
+
         birdMovieTicket.SetActive(true);
         lastOfYouTicket.SetActive(false);
 
@@ -16,6 +18,8 @@ public class TicketSpawner : MonoBehaviour
 
     public void ShowLastOfYou()
     {
+       
+
         lastOfYouTicket.SetActive(true);
         birdMovieTicket.SetActive(false);
 
